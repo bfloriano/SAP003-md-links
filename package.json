@@ -1,0 +1,27 @@
+{
+  "name": "sap003-md-links",
+  "version": "1.0.0",
+  "description": "projeto-md-links",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bfloriano/SAP003-md-links.git"
+  },
+  "keywords": [
+    "markdown",
+    "promisses",
+    "node.js"
+  ],
+  "author": "Bruna Floriano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bfloriano/SAP003-md-links/issues"
+  },
+  "homepage": "https://github.com/bfloriano/SAP003-md-links#readme"
+}
