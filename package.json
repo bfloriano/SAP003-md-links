@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,8 @@
   "keywords": [
     "markdown",
     "promisses",
+    "link",
+    "md",
     "node.js"
   ],
   "author": "Bruna Floriano",
@@ -23,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/bfloriano/SAP003-md-links/issues"
   },
-  "homepage": "https://github.com/bfloriano/SAP003-md-links#readme"
+  "homepage": "https://github.com/bfloriano/SAP003-md-links#readme",
+  "bin": {
+    "mdlinks": "./lib/cli.js"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
