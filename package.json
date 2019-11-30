@@ -1,8 +1,8 @@
 {
-  "name": "sap003-md-links",
+  "name": "mdlinks",
   "version": "1.0.0",
   "description": "projeto-md-links",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "directories": {
     "lib": "lib"
   },
@@ -30,6 +30,7 @@
     "mdlinks": "./lib/cli.js"
   },
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "eslint": "^6.7.1"
   }
 }
