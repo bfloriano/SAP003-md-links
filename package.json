@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/bfloriano/SAP003-md-links#readme",
   "bin": {
-    "mdlinks": "./lib/cli.js"
+    "mdlinks": "./cli.js"
   },
   "devDependencies": {
     "jest": "^24.9.0",
