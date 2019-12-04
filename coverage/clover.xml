@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1575429398424" clover="3.2.0">
-  <project timestamp="1575429398424" name="All files">
+<coverage generated="1575447992735" clover="3.2.0">
+  <project timestamp="1575447992735" name="All files">
     <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3" elements="18" coveredelements="18" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
     <file name="index.js" path="C:\Users\Bruna\OneDrive\Laboratoria\codigos\SAP003-md-links\lib\index.js">
       <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
@@ -12,11 +12,11 @@
       <line num="7" count="2" type="stmt"/>
       <line num="9" count="2" type="stmt"/>
       <line num="10" count="2" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
-      <line num="15" count="2" type="stmt"/>
-      <line num="16" count="5" type="stmt"/>
-      <line num="18" count="2" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="15" count="5" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

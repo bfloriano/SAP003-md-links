@@ -4,7 +4,7 @@ const path = process.argv[2];
 
 mdLinks(path)
   .then((resolveValue) => {
-    resolveValue.forEach(item => {console.log(`Title: ${item.text} \nURL: ${item.href}\n`);
+    resolveValue.forEach(item => {console.log(`\nTitle: ${item.text} \nURL: ${item.href}`);
     });
   })
   .catch(console.error); 

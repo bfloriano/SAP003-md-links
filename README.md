@@ -46,10 +46,10 @@ Ao instalar a biblioteca, é possível utilizá-la pelo arquivo _executável_ qu
 
   ## 5. Valor de retorno
 
-A função retorna uma promessa (Promise) com uma array de objetos, em que cada objeto representa um link e contém as seguintes propriedades:
+A função retorna uma promessa (Promise) com uma array de objetos, em que cada objeto representa um link no arquivo, e contém as seguintes propriedades:
 
 ```
-(Title) text: Texto dentro do markdown.
+Title: Texto indicativo do link dentro do markdown.
 
-(URL) href: URL do link encontrado.
+URL: URL do link encontrado.
 ```
