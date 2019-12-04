@@ -22,7 +22,7 @@ Durante o bootcamp da Laboratória, foi proposto criar uma ferramenta, usando [N
 
 ## 2. Considerações gerais
 
-* A biblioteca e script executável (ferramenta de linha de comando - CLI) foram implementados em JavaScript para serem executadas com Node.JS. 
+* A biblioteca e script executável (ferramenta de linha de comando - CLI) foram implementados em JavaScript para serem executadas com Node.js. 
 
 * Foram executados testes unitários utilizando o [Jest](https://jestjs.io/) para cobrir os _statements_, _functions_, _lines_ e _branches_. 
 
@@ -46,7 +46,7 @@ Ao instalar a biblioteca, é possível utilizá-la pelo arquivo _executável_ qu
 
   ## 5. Valor de retorno
 
-A função retorna promessa (Promise) com uma array de objetos, em que cada objeto representa um link e contém as seguintes propriedades:
+A função retorna uma promessa (Promise) com uma array de objetos, em que cada objeto representa um link e contém as seguintes propriedades:
 
 ```
 (Title) text: Texto dentro do markdown.
