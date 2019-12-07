@@ -7,3 +7,9 @@
 * [Publicar
   package](https://docs.npmjs.com/getting-started/publishing-npm-packages)
 * [Criando um módulo
+ [Criando um módulo](http://www.google.com)
+* [Criando um módulo](https://www.google.com)* 
+  [Criando um módulo](www.google.com)
+* [Criando um módulo](google.com)
+* [Criando um 
+módulo](http://www.google.com)
