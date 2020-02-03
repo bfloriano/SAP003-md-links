@@ -28,7 +28,7 @@ Durante o bootcamp da Laboratória, foi proposto criar uma ferramenta, usando [N
 
 ## 3. Instalação
 
-* Para usar esta biblioteca, você deve ter instalado os Node.js no seu computador.
+* Para usar esta biblioteca, você deve ter instalado o Node.js no seu computador.
 
 * O módulo é instalável executando o seguinte comando no terminal:
 
@@ -44,6 +44,14 @@ Ao instalar a biblioteca, é possível utilizá-la pelo arquivo _executável_ qu
   $ mdLinks ./some/example.md
   ```
 
+Também é possível obter uma resposta se o link encontrado é válido, neste caso o comando executado é:
+
+`mdLinks <path-to-file> --validate`
+
+  ```
+  $ mdLinks ./some/example.md --validate
+  ```
+
   ## 5. Valor de retorno
 
 A função retorna uma promessa (Promise) com uma array de objetos, em que cada objeto representa um link no arquivo, e contém as seguintes propriedades:
@@ -52,4 +60,6 @@ A função retorna uma promessa (Promise) com uma array de objetos, em que cada 
 Title: Texto indicativo do link dentro do markdown.
 
 URL: URL do link encontrado.
+
+Status: OK
 ```
