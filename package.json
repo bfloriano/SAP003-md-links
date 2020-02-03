@@ -9,7 +9,6 @@
   "scripts": {
     "test": "jest --coverage",
     "eslint": "eslint --fix"
-
   },
   "repository": {
     "type": "git",
@@ -36,6 +35,7 @@
     "jest": "^24.9.0"
   },
   "dependencies": {
-    "coverage": "^0.4.1"
+    "coverage": "^0.4.1",
+    "node-fetch": "^2.6.0"
   }
 }
