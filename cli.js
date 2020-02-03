@@ -13,4 +13,4 @@ mdLinks(path, option)
       });
     }
   })
-  .catch(console.log('link inválido')); 
+  .catch(console.error); 
