@@ -6,7 +6,7 @@ const option = process.argv[3];
 mdLinks(path, option)
   .then((resolveValue) => {
     if (option === "--validate") {
-      resolveValue.forEach(item => {console.log(`\nTitle: ${item.text} \nURL: ${item.href} \nStatus: ${item.statusText}`);
+      resolveValue.forEach(item => {console.log(`\nTitle: ${item.text} \nURL: ${item.href} \nStatus: ${item.status}`);
       });
     } else {
       resolveValue.forEach(item => {console.log(`\nTitle: ${item.text} \nURL: ${item.href}`);
